@@ -29,13 +29,13 @@ if(isset($_POST['submit']))
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
     $mail->Port =587;
 
-    $mail -> Username = "bwkinyua01@gmail.com"; //company's email(uses this account to send the email)
-    $mail -> Password = "jxnygikqvyjtywcz";
+    $mail -> Username = "xxxxxxxxxx@gmail.com"; //company's email(uses this account to send the email)
+    $mail -> Password = "xxxxxxxxxxxxxxxx";
 
     //$mail ->setFrom ($email);
     //$mail ->addAddress($_POST['email']);
     $mail ->setFrom ($email);
-    $mail ->addAddress("bwkinyua01@gmail.com");
+    $mail ->addAddress("xxxxxxxxxxxxxx@gmail.com");
 
 
     $mail -> Subject =$subject;
