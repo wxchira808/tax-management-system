@@ -1,0 +1,325 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+nav 
+{
+ 
+    position: fixed;
+    background-color: orange;
+    height: 70px;
+    width: 100%;
+    z-index: 1;
+}
+
+
+input
+
+{
+
+Width:400px;
+
+height:40px;
+}
+
+textarea
+{
+  Width:400px;
+
+  height:100px;
+
+}
+
+.logo
+{
+    font-size: 30;
+    position: relative
+    left 5%;
+    color: white;
+    font-weight: bold;
+    line-height: 70px;
+    margin-left: 20px;
+
+}
+a button
+{
+    background-color: #8e1a0b;
+    color: white;
+    border-radius:50px;
+    padding:6px;
+    border-width:2px;
+    cursor: pointer;
+}
+button:hover{
+  background: rgba(223, 70, 15, 0.856);
+  cursor: pointer;
+}
+
+
+ul 
+{
+    position: relative;
+    float: right;
+    margin-right: 20px;
+}
+
+ul li 
+{
+    display: inline-block;
+    line-height: 70px;
+    margin :0 5px;
+}
+
+ul li a 
+{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+
+}
+ul li a:hover
+{
+    color: red;
+    text-decoration: none;
+    
+}
+
+.form_design
+{
+    padding-top: 120px;
+    padding-bottom: 0px;
+}
+
+.label_design
+{
+    display:inline-block;
+    color:white;
+    width: 130px;
+    text-align: left;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+
+.login_button
+{
+    background-color: #8e1a0b;
+    color: white;
+    border-radius:50px;
+    padding:6px;
+    border-width:2px;
+}
+.login_button:hover{
+  background: rgba(223, 70, 15, 0.856);
+  cursor: pointer;
+}
+
+
+
+.login_form
+{
+    background-color:#8391e2 ;
+    width: 1000px;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    font-size: 20px;
+
+}
+.title_design
+{
+    background-color: skyblue;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    width: 1000px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+
+}
+
+.body_design
+{
+    background-color: white;
+}
+
+.refresh_button
+{
+    padding-top: 300px;
+    
+}
+
+.home_content
+{
+    padding-top:200px;
+}
+.main_img
+{
+    width:100%;
+    height: 100%;
+}
+.section1
+{
+    padding-top: 100px;
+}
+.img_text
+{
+   
+    top: 30%;
+    left: 15%;
+    color: red;
+    padding: 10px;
+    font-size: 35px;
+   -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: black;
+}
+.index_button
+{
+            display: inline-block;
+            background-color: #023047;
+            color: #fff;
+            font-size: 15px;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        
+.index_button2
+{
+            display: inline-block;
+            background-color: red;
+            color: #fff;
+            text-decoration: none;
+            font-size: 15px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+     }
+     .index_button3
+     {
+                 display: inline-block;
+                 background-color: purple;
+                 color: #fff;
+                 font-size: 15px;
+                 text-decoration: none;
+                 padding: 10px 20px;
+                 border-radius: 5px;
+                 transition: background-color 0.3s ease;
+             }
+
+#container {
+  transition: max-height 0.3s ease-in-out;
+  overflow: hidden;
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            border: 5px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin-top: 50px;
+             top: 40%;
+             left: 50%;
+             transform: translate(-50%, -50%);
+  
+    position: absolute;
+            
+        }
+
+.checkbox{
+Width:15px;
+height:15px;
+
+}
+
+.main-card{
+  display: flex;
+  margin-top: 20px;
+  background-color: white;
+
+}
+.main-card .card{
+  width: 25%;
+  margin: 10px;
+  background: #fff;
+  text-align: center;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+.main-card .card h3{
+  margin: 10px;
+  text-transform: capitalize;
+}
+.main-card .card p{
+  font-size: 17px;
+}
+.main-card .card button{
+  background: #8e1a0b;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.main-card .card button:hover{
+  background: rgba(223, 70, 15, 0.856);
+}
+.main-card .card i{
+  font-size: 22px;
+  padding: 10px;
+}
+
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    
+   
+    .dropdown-button {
+      background-color: orange;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+
+    .dropdown-content a {
+      color: black;
+      padding: 2px 16px;
+      text-decoration: none;
+      display: block;
+    }
+ 
+    .dropdown-content a:hover {
+      background-color: #ddd;
+    }
+    
+ 
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+
+
+    .popup-info {
+      display: none;
+      background-color: white;
+      border: 1px solid black;
+      padding: 20px;
+      margin-top: 10px;
+  }

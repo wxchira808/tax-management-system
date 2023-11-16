@@ -1,0 +1,234 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+nav 
+{
+ 
+    position: fixed;
+    background-color: orange;
+    height: 70px;
+    width: 100%;
+    z-index: 1;
+}
+
+input
+
+{
+
+Width:400px;
+
+height:40px;
+}
+
+textarea
+{
+  Width:400px;
+
+  height:100px;
+ 
+
+
+}
+
+.logo
+{
+    font-size: 30;
+    position: relative
+    left 5%;
+    color: white;
+    font-weight: bold;
+    line-height: 70px;
+    margin-left: 20px;
+
+}
+
+ul 
+{
+    position: relative;
+    float: right;
+    margin-right: 20px;
+}
+
+ul li 
+{
+    display: inline-block;
+    line-height: 70px;
+    margin :0 5px;
+}
+
+ul li a 
+{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    
+
+}
+ul li a:hover
+{
+    color: red;
+    text-decoration: none;
+    
+}
+
+select
+{
+font-size: 12px;
+Width:400px;
+height:40px;
+}
+
+.form_design
+{
+    padding-top: 120px;
+    padding-bottom: 0px;
+}
+
+.label_design
+{
+    display:inline-flex;
+    color:white;
+    width: 130px;
+    text-align: left;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+
+.login_button
+{
+    background-color: #8e1a0b;
+    color: white;
+    border-radius:50px;
+    padding:6px;
+    border-width:2px;
+}
+.login_button:hover{
+  background: rgba(223, 70, 15, 0.856);
+  cursor: pointer;
+}
+
+.login_form
+{
+    background-color:#8391e2 ;
+    width: 1000px;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    font-size: 20px;
+
+}
+.title_design
+{
+    background-color: skyblue;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    width: 1000px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+
+}
+
+.body_design
+{
+    background-color: white;
+}
+
+.logo
+{
+    font-size: 30;
+    position: relative
+    left 5%;
+    color: white;
+    font-weight: bold;
+    line-height: 70px;
+    margin-left: 20px;
+
+}
+
+
+
+/* Style the dropdown */
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    
+    /* Style the dropdown button */
+    .dropdown-button {
+      background-color: orange;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    
+    /* Style the dropdown content (hidden by default) */
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    /* Style the dropdown links */
+    .dropdown-content a {
+      color: black;
+      padding: 2px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {
+      background-color: #ddd;
+    }
+    
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+
+
+
+
+
+
+
+
+
+.input-control {
+   
+}
+
+.input-control input {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    font-size: 12px;
+    
+}
+
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control.success input {
+    border-color: #green;
+}
+
+.input-control.error input {
+    border-color: #red;
+}
+
+.input-control .error {
+    color: #red;
+    font-size: 9px;
+    height: 13px;
+}

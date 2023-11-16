@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>File Return</title>
+	<link rel="stylesheet" type="text/css" href="admin.css">
+ 
+	
+
+</head>
+
+
+<body>
+	
+	<nav>
+		<div class="header" id="myHeader">
+			
+			<a href="">Employer Dashboard</a>
+
+			<div class="logout">
+				<a href=""> <button> LOG OUT </button> </a>	
+			</div>
+
+		</div>
+	</nav>
+	<aside>
+		<ul>
+			<li>
+				<a href="">Profile</a>
+			</li>
+			<li>
+				<a href="">File tax return</a>
+			</li>
+			<li>
+				<a href="">View tax returns</a>
+			</li>
+			
+		</ul>
+
+	</aside>
+
+	<div class="content">
+		
+		<p>Sample</p><br><br><br><br><br><br>
+		
+		<div style="text-align: center;padding-right:10%;">
+			<h1 >File Tax Return</h1><br>
+			
+		</div>
+		
+		<form action="#" method="POST" class="" id="myForm" onsubmit=" validateForm()" >
+
+			<h2>Return Form</h2><br>
+
+			
+			<label style="font-weight:bold; font-size: 17px;">Employer ID:</label><br>
+			<input style="width:300px; height: 30px;" type="text" name="employer_id" id="employer_id" placeholder="input Employer ID" ><br><br>
+			
+			<label style="font-weight:bold; font-size: 17px;">Taxpayer ID:</label><br>
+			<input style="width:300px; height: 30px;" type="text" name="taxpayer_id" id="taxpayer_id"  placeholder="input Taxpayer ID" ><br><br>
+
+			<label>Tax month:</label><br>
+			<select placeholder="Month">
+				<option name="" value="" style="display:none;">Month</option>
+				<option name="January" value="Jan">January</option>
+				<option name="February" value="Feb">February</option>
+				<option name="March" value="Mar">March</option>
+				<option name="April" value="Apr">April</option>
+				<option name="May" value="May">May</option>
+				<option name="June" value="Jun">June</option>
+				<option name="July" value="Jul">July</option>
+				<option name="August" value="Aug">August</option>
+				<option name="September" value="Sep">September</option>
+				<option name="October" value="Oct">October</option>
+				<option name="November" value="Nov">November</option>
+				<option name="December" value="Dec">December</option>
+			</select><br><br>
+
+
+			
+
+			<label>Basic Salary:</label><br>
+			<input type="int" name="basic_salary" id="basic_salary" placeholder="Input value"><br><br>
+
+			<label>Benefits Non Cash:</label><br>
+			<input type="int" name="benefits_non_cash" id="benefits_non_cash"   placeholder="input value"><br><br>
+
+			<label>Value of Quarters:</label><br>
+			<input type="int" name="value_of_quarters" id="value_of_quarters" placeholder="input value"><br><br>
+
+			<label>Total Gross Pay:</label><br>
+			<input type="int" name="total_gross_pay" id="total_gross_pay" placeholder="input value"><br><br>
+
+
+			<label>Defined Contribution Retirement Scheme(30% of Basic Salary):</label><br>
+			<input type="int" name="retirement_scheme" id="retirement_scheme" placeholder="input value"><br><br>
+
+			<label>Defined Contribution Retirement Scheme(Actual):</label><br>
+			<input type="int" name="retirement_scheme_2" id="retirement_scheme_2" placeholder="input value"><br><br>
+
+			<label>Defined Contribution Retirement Scheme(Fixed):</label><br>
+			<input type="int" name="retirement_scheme_3" id="retirement_scheme_3" placeholder="input value"><br><br>
+
+
+			<label>Owner Occupied Interest:</label><br>
+			<input type="int" name="owner_occupied" id="owner_occupied" placeholder="input value"><br><br>
+
+			<label>Retirement Contribution & Owner Occupied Interest:</label><br>
+			<input type="int" name="retirements_owner_occupied"  id="retirements_owner_occupied" placeholder= "input value"><br><br>
+
+			<label>Chargable pay:</label><br>
+			<input type="int" name="chargable_pay" id="chargable_pay" placeholder="input value"><br><br>
+
+			<label>Tax Charged:</label><br>
+			<input type="int" name="tax_charged" id="tax_charged" placeholder="input value"><br><br>
+
+			<label>Personal Relief:</label><br>
+			<input type="int" name="personal_relief" id="personal_relief" placeholder="input value"><br><br>
+
+			<label>Insurance Relief:</label><br>
+			<input type="int" name="insurance_relief" id="insurance_relief" placeholder="input value"><br><br>
+
+			<label>PAYE:</label><br>
+			<input type="int" name="PAYE_tax" id="PAYE_tax" placeholder="input value"><br><br>
+
+			<label>Total:</label><br>
+			<input type="int" name="total" id="total" placeholder="input value"><br><br>
+
+			<button class="login_button" type="submit" id="submit" name="submit"  >SUBMIT</button><br>
+			
+			
+			
+		</form>
+
+	</div>
+	<script  src="taxReturnValidate.js"></script>
+</body>
+
+
+
+
+
+
+
+</html>
